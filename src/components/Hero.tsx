@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight, Play, ArrowDown } from "lucide-react";
+import { ArrowUpRight, ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -64,7 +64,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-lg text-healing-teal/75 max-w-xl leading-relaxed mb-10"
           >
-            Hi, I&apos;m Dr. Naman Krishnarthi. As a modern, compassionate MD Physician, I combine evidence-based medicine with an individualized, patient-focused approach to remote health guidance.
+            Hi, I&apos;m Dr. Naman Krishnaatri. As a modern, compassionate MBBS doctor with a Bachelor&apos;s in Psychology, I combine evidence-based care with an individualized, patient-focused approach to remote health guidance.
           </motion.p>
 
           <motion.div
@@ -96,7 +96,7 @@ export default function Hero() {
               &ldquo;My practice is built on careful listening, evidence-based guidance, and continuous learning, ensuring each patient gets the time and attention they deserve.&rdquo;
             </p>
             <p className="font-sans text-[11px] uppercase tracking-widest text-sage-green font-bold mt-2">
-              Dr. Naman Krishnarthi &bull; Patient-Focused Approach
+              Dr. Naman Krishnaatri &bull; Patient-Focused Approach
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Hero() {
             <div className="w-full h-full rounded-t-[160px] rounded-b-[40px] overflow-hidden border-4 border-warm-sand shadow-2xl relative">
               <Image
                 src="/DrNaman.png"
-                alt="Dr. Naman Krishnarthi MD"
+                alt="Dr. Naman Krishnaatri MBBS"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 420px"
@@ -139,8 +139,8 @@ export default function Hero() {
                 NK
               </div>
               <div>
-                <p className="font-serif text-sm font-semibold text-white">Dr. Naman Krishnarthi</p>
-                <p className="font-sans text-[10px] tracking-wider uppercase text-sage-light">MD Internal Medicine</p>
+                <p className="font-serif text-sm font-semibold text-white">Dr. Naman Krishnaatri</p>
+                <p className="font-sans text-[10px] tracking-wider uppercase text-sage-light">MBBS, B.Psych</p>
               </div>
             </motion.div>
           </motion.div>

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, BookOpen, HeartPulse, User } from "lucide-react";
+import { ArrowRight, HeartPulse, User } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -58,34 +58,94 @@ export default function About() {
 
             <div className="space-y-6 font-sans text-healing-teal/80 text-base leading-relaxed">
               <p>
-                Dr. Naman Krishnarthi is an early-career MD Physician dedicated to delivering online medical consultations and remote health guidance. Having worked at Aayush Hospital, Mehsana and practiced in Vadodara, he brings modern, evidence-based clinical insights to patients seeking a personalized care approach.
+                Dr. Naman Krishnaatri is a compassionate and motivated MBBS doctor dedicated to patient well-being and evidence-based medical care. Combining a background in psychology with rigorous medical training, he offers a unique, holistic perspective to remote health guidance. He is committed to listening carefully and providing personalized guidance to patients.
               </p>
               <p>
-                Focused on careful listening and continuous learning, Dr. Naman partners with patients to decode complex diagnostics and review therapeutic regimens. He is committed to providing clear, honest health advice for people across North Gujarat.
+                Registered with the <strong>Gujarat Medical Council (GPR-80036)</strong>, Dr. Naman has built a strong clinical foundation through hands-on experience in diverse healthcare settings. He is comfortable working collaboratively to ensure comprehensive patient care.
               </p>
             </div>
 
-            {/* Sub-features grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 w-full">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-sage-light flex items-center justify-center text-healing-teal">
-                  <HeartPulse className="w-5 h-5" />
+            {/* Structured details section */}
+            <div className="mt-8 space-y-6 w-full border-t border-sage-light/60 pt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                {/* Column 1: Education & Credentials */}
+                <div className="space-y-4">
+                  <h3 className="font-serif text-lg font-semibold text-healing-teal flex items-center gap-2">
+                    <User className="w-5 h-5 text-gold-accent" /> Education & Credentials
+                  </h3>
+                  <ul className="space-y-3 text-sm text-healing-teal/80">
+                    <li className="relative pl-5">
+                      <span className="absolute left-0 top-1.5 w-1.5 h-1.5 rounded-full bg-gold-accent" />
+                      <strong className="block text-healing-teal">MBBS</strong>
+                      Manila Central University, Philippines (Graduated 2022)
+                    </li>
+                    <li className="relative pl-5">
+                      <span className="absolute left-0 top-1.5 w-1.5 h-1.5 rounded-full bg-gold-accent" />
+                      <strong className="block text-healing-teal">Bachelor&apos;s in Psychology</strong>
+                      University of Perpetual Help System DALTA, Philippines (Graduated 2016)
+                    </li>
+                    <li className="relative pl-5 text-xs border-t border-sage-light/45 pt-2 mt-2">
+                      <strong className="text-healing-teal uppercase tracking-wider text-[10px] block mb-0.5">Council Registration:</strong>
+                      Gujarat Medical Council &bull; Reg No: GPR-80036
+                    </li>
+                    <li className="relative pl-5 text-xs pt-1">
+                      <strong className="text-healing-teal uppercase tracking-wider text-[10px] block mb-0.5">Languages:</strong>
+                      English, Hindi, Gujarati, Tagalog
+                    </li>
+                  </ul>
                 </div>
+
+                {/* Column 2: Clinical Experience */}
+                <div className="space-y-4">
+                  <h3 className="font-serif text-lg font-semibold text-healing-teal flex items-center gap-2">
+                    <HeartPulse className="w-5 h-5 text-gold-accent" /> Clinical Background
+                  </h3>
+                  <ul className="space-y-3 text-sm text-healing-teal/80">
+                    <li className="relative pl-5">
+                      <span className="absolute left-0 top-1.5 w-1.5 h-1.5 rounded-full bg-gold-accent" />
+                      <strong className="block text-healing-teal">Clinical Experience</strong>
+                      Manila Central University Internship &amp; GMERS Medical Hospital, Vadnagar
+                    </li>
+                    <li className="relative pl-5">
+                      <span className="absolute left-0 top-1.5 w-1.5 h-1.5 rounded-full bg-gold-accent" />
+                      <strong className="block text-healing-teal">Previous Practice</strong>
+                      Aayush Hospital, Mehsana
+                    </li>
+                    <li className="relative pl-5 border-t border-sage-light/45 pt-2 mt-2">
+                      <strong className="text-healing-teal uppercase tracking-wider text-[10px] block mb-1">Practice Areas:</strong>
+                      OPD, Ward, ICU, and Emergency care, including ward rounds, clinical documentation, and patient evaluation.
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              {/* Competencies and Departmental Exposure Grid */}
+              <div className="bg-sage-light/25 rounded-2xl p-6 border border-sage-light/80 mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-serif text-lg font-medium text-healing-teal">Evidence-Based</h4>
-                  <p className="font-sans text-sm text-healing-teal/70 mt-1">Grounded in rigorous clinical studies and diagnostic review.</p>
+                  <h4 className="font-serif text-sm font-semibold text-healing-teal mb-3">Clinical Competencies</h4>
+                  <div className="flex flex-wrap gap-1.5">
+                    {["IV Cannulation", "Foley Catheter", "NGT & OGT Insertion", "Pleural Tap", "Incision & Drainage", "Wound Dressing", "ABG Sampling", "BLS", "ACLS", "ATLS"].map((skill) => (
+                      <span key={skill} className="px-2 py-0.5 bg-warm-sand text-healing-teal border border-sage-medium/40 rounded text-[11px] font-medium">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-serif text-sm font-semibold text-healing-teal mb-3">Internship Exposure</h4>
+                  <div className="flex flex-wrap gap-1.5">
+                    {["Medicine", "Surgery", "Pediatrics", "Orthopedics", "Psychiatry", "Emergency Medicine", "Community Medicine", "ENT", "Ophthalmology", "Obstetrics & Gynecology"].map((dept) => (
+                      <span key={dept} className="px-2 py-0.5 bg-warm-sand text-healing-teal border border-sage-medium/40 rounded text-[11px] font-medium">
+                        {dept}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-sage-light flex items-center justify-center text-healing-teal">
-                  <BookOpen className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="font-serif text-lg font-medium text-healing-teal">Patient Education</h4>
-                  <p className="font-sans text-sm text-healing-teal/70 mt-1">Empowering you to understand your lab results and choices.</p>
-                </div>
-              </div>
             </div>
 
             <div className="mt-10 pt-8 border-t border-sage-light/60 w-full flex items-center justify-between flex-wrap gap-4">
@@ -93,14 +153,14 @@ export default function About() {
                 <div className="w-12 h-12 rounded-full overflow-hidden border border-gold-accent relative">
                   <Image
                     src="/DrNaman.png"
-                    alt="Dr. Naman Krishnarthi Profile"
+                    alt="Dr. Naman Krishnaatri Profile"
                     fill
                     className="object-cover object-top"
                   />
                 </div>
                 <div>
-                  <p className="font-serif text-sm font-semibold text-healing-teal">Dr. Naman Krishnarthi</p>
-                  <p className="font-sans text-[11px] text-sage-green font-semibold uppercase tracking-wider">MD (Internal Medicine)</p>
+                  <p className="font-serif text-sm font-semibold text-healing-teal">Dr. Naman Krishnaatri</p>
+                  <p className="font-sans text-[11px] text-sage-green font-semibold uppercase tracking-wider">MBBS, Bachelor&apos;s in Psychology</p>
                 </div>
               </div>
               <a

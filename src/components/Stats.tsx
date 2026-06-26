@@ -6,23 +6,23 @@ import { motion } from "framer-motion";
 const trustFactors = [
   {
     icon: Award,
-    title: "MD in Internal Medicine",
-    desc: "Postgraduate medical training in internal medicine, focusing on complex adult health diagnostics.",
+    title: "MBBS & B.Psych",
+    desc: "Graduated with a Bachelor's in Psychology (2016) and MBBS (2022), providing a strong clinical and behavioral foundation.",
   },
   {
     icon: ShieldCheck,
-    title: "Clinical Foundation",
-    desc: "Developed diagnostic and clinical skills working at Aayush Hospital, Mehsana and practicing in Vadodara.",
+    title: "Clinical Experience",
+    desc: "Gained clinical experience through Manila Central University Internship, GMERS Hospital (Vadnagar), and Aayush Hospital (Mehsana).",
   },
   {
     icon: MapPin,
     title: "Serving North Gujarat",
-    desc: "Providing dedicated online health advice and consultation for people across North Gujarat.",
+    desc: "Providing dedicated remote medical advice, report reviews, and online consultation for people across North Gujarat.",
   },
   {
     icon: Heart,
     title: "Evidence-Based Guidance",
-    desc: "A patient-focused approach prioritizing careful listening, continuous learning, and clear diagnostic explanations.",
+    desc: "Committed to careful listening, thorough evaluation, clinical documentation, and personalized patient-focused care.",
   },
 ];
 

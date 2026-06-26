@@ -83,7 +83,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-serif text-base font-semibold text-healing-teal">Direct Contact</h4>
                   <p className="font-sans text-sm text-healing-teal/75 leading-relaxed mt-1">
-                    Patient Support: <a href="tel:+919876543210" className="text-gold-accent font-semibold hover:underline">+91 98765 43210</a>
+                    Patient Support: <a href="tel:+917778950829" className="text-gold-accent font-semibold hover:underline">+91 77789 50829</a>
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-serif text-base font-semibold text-healing-teal">Direct Email</h4>
                   <p className="font-sans text-sm text-healing-teal/75 leading-relaxed mt-1">
-                    Inquiries: <a href="mailto:care@drnaman.com" className="text-gold-accent font-semibold hover:underline">care@drnaman.com</a>
+                    Inquiries: <a href="mailto:namankrishnaatri@gmail.com" className="text-gold-accent font-semibold hover:underline">namankrishnaatri@gmail.com</a>
                   </p>
                 </div>
               </div>

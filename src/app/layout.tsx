@@ -16,22 +16,22 @@ const interSans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Naman Krishnarthi | MD Physician | Mehsana & North Gujarat",
-  description: "Experience premium, modern, and personalized healthcare with Dr. Naman Krishnarthi, an MD Physician specializing in internal medicine, virtual consultation, diagnostic care, and holistic wellness.",
+  title: "Dr. Naman Krishnaatri | MBBS & B.Psych | Mehsana & North Gujarat",
+  description: "Experience premium, modern, and personalized health guidance with Dr. Naman Krishnaatri, an MBBS doctor with a Bachelor's in Psychology offering remote medical advice, report reviews, and online consultation.",
   keywords: [
-    "Dr. Naman Krishnarthi",
-    "MD Physician Mehsana",
+    "Dr. Naman Krishnaatri",
+    "MBBS Doctor Mehsana",
     "Doctor in North Gujarat",
     "Online Consultation Doctor",
-    "Functional Medicine India",
-    "Internal Medicine Mehsana",
-    "Personal Physician Gujarat",
-    "Prescription Review Online"
+    "Medical Report Review Gujarat",
+    "Second Opinion Doctor India",
+    "Prescription Review Online",
+    "Bachelor in Psychology Doctor"
   ],
-  authors: [{ name: "Dr. Naman Krishnarthi" }],
+  authors: [{ name: "Dr. Naman Krishnaatri" }],
   openGraph: {
-    title: "Dr. Naman Krishnarthi | MD Physician",
-    description: "Premium personal healthcare and virtual consulting in Mehsana & North Gujarat.",
+    title: "Dr. Naman Krishnaatri | MBBS & B.Psych",
+    description: "Premium personal health guidance and virtual consulting in Mehsana & North Gujarat.",
     type: "website",
     locale: "en_IN",
   },

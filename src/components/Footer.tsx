@@ -41,7 +41,7 @@ export default function Footer() {
                 Dr. Naman
               </span>
               <span className="font-sans text-xs font-semibold tracking-widest text-gold-accent uppercase border-l border-sage-medium pl-2">
-                MD Physician
+                MBBS, B.Psych
               </span>
             </a>
             <p className="font-sans text-xs text-healing-teal/70 leading-relaxed max-w-sm">
@@ -98,7 +98,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#services" onClick={(e) => handleScrollTo(e, "#services")} className="text-healing-teal/70 hover:text-healing-teal transition-colors">
-                  Clinical Specialties
+                  Services & Guidance
                 </a>
               </li>
               <li>
@@ -135,7 +135,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#online-services" onClick={(e) => handleScrollTo(e, "#online-services")} className="text-healing-teal/70 hover:text-healing-teal transition-colors">
-                  Diagnostic Triage (Waitlist)
+                  Medical Report Review
                 </a>
               </li>
             </ul>
@@ -145,7 +145,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-4">
             <h4 className="font-serif text-sm font-semibold text-healing-teal">Serving North Gujarat</h4>
             <p className="font-sans text-xs text-healing-teal/70 leading-relaxed">
-              Dr. Naman provides online consultations and remote health advice to patients in <strong>Mehsana</strong>, <strong>Patan</strong>, <strong>Sidhpur</strong>, <strong>Visnagar</strong>, <strong>Kadi</strong>, and <strong>Kalol</strong>.
+              Dr. Naman Krishnaatri provides online consultations and remote health advice to patients in <strong>Mehsana</strong>, <strong>Patan</strong>, <strong>Sidhpur</strong>, <strong>Visnagar</strong>, <strong>Kadi</strong>, and <strong>Kalol</strong>.
             </p>
           </div>
 
@@ -163,7 +163,7 @@ export default function Footer() {
           {/* Legal / Copyright */}
           <div className="flex flex-col items-start md:items-end justify-between gap-2 flex-shrink-0">
             <p className="font-sans text-[10px] text-healing-teal/65">
-              &copy; {currentYear} Dr. Naman Krishnarthi. All rights reserved.
+              &copy; {currentYear} Dr. Naman Krishnaatri. All rights reserved.
             </p>
             <div className="flex gap-4 text-[10px] font-sans text-healing-teal/55">
               <a href="#" className="hover:text-healing-teal">Privacy Policy</a>

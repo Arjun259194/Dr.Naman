@@ -1,56 +1,50 @@
 "use client";
 
-import { Activity, ClipboardCheck, Video, HelpCircle, FileText, Heart, ShieldAlert, FileSearch } from "lucide-react";
+import { Activity, ClipboardCheck, Video, HelpCircle, FileText, Heart, FileSearch } from "lucide-react";
 import { motion } from "framer-motion";
 
 const clinicalServices = [
   {
     icon: Video,
-    title: "Online Medical Consultation",
-    focus: ["Adult Primary Care", "Chronic Symptom Discussion", "Initial Diagnostic Pathways"],
-    desc: "Detailed digital consultation sessions to discuss new or ongoing health concerns from the comfort of your home.",
+    title: "Online Consultation",
+    focus: ["Primary Care Discussion", "Symptom Discussion", "Initial Clinical Guidance"],
+    desc: "Convenient online consultations to discuss primary care, symptoms, and health management from home.",
   },
   {
-    icon: Heart,
-    title: "Remote Health Guidance",
-    focus: ["Lifestyle Interventions", "Preventive Care Guidance", "Metabolic Optimization"],
-    desc: "Evidence-based, personalized advice to optimize your vitality and guide your day-to-day wellness decisions.",
+    icon: HelpCircle,
+    title: "Remote Medical Advice",
+    focus: ["Symptom Triage", "General Health Queries", "Recommended Next Steps"],
+    desc: "Answers to your medical questions and clinical guidance to help clarify next steps in your care.",
   },
   {
     icon: Activity,
-    title: "Online Follow-up Consultation",
-    focus: ["Treatment Response Review", "Dosage Adjustments", "Progress Monitoring"],
-    desc: "Checking your clinical progress, reviewing symptom tracking logs, and refining ongoing health protocols.",
-  },
-  {
-    icon: FileText,
-    title: "Remote Report Review",
-    focus: ["Vascular Marker Analysis", "Blood Assay Explanations", "Lab Reports Translation"],
-    desc: "Meticulous review of your lab assays to help you understand what your blood panels and biomarkers actually mean.",
+    title: "Follow-up Consultation",
+    focus: ["Clinical Progress Monitoring", "Guidance Response Review", "Symptom Log Review"],
+    desc: "Checking progress and refining guidance recommendations based on your response over time.",
   },
   {
     icon: ClipboardCheck,
     title: "Prescription Review",
-    focus: ["Polypharmacy Reduction", "Drug Interaction Checks", "Dosage Optimization"],
-    desc: "A careful study of your current medications to ensure safety, identify overlaps, and check for negative interactions.",
+    focus: ["Drug Interaction Review", "Redundancy Assessment", "Safety Evaluation"],
+    desc: "Reviewing your current medications to ensure safety, check for interactions, and clarify usage.",
+  },
+  {
+    icon: FileText,
+    title: "Medical Report Review",
+    focus: ["Blood Panel Explanation", "Lab Reports Evaluation", "Biomarker Translation"],
+    desc: "Translating complex diagnostic reports and lab parameters to help you understand your results.",
   },
   {
     icon: FileSearch,
-    title: "Online Second Opinion",
-    focus: ["Diagnostic Double-Check", "Treatment Plan Evaluation", "Alternative Care Guidance"],
-    desc: "Providing a thoughtful, independent clinical perspective on your diagnosed conditions and proposed treatment plans.",
+    title: "Second Opinion",
+    focus: ["Diagnostic Review", "Treatment Protocol Review", "Alternative Guidance Options"],
+    desc: "Providing an independent and thoughtful perspective on your diagnosis and options.",
   },
   {
-    icon: HelpCircle,
-    title: "Online Health Advice",
-    focus: ["General Wellness Queries", "Symptom Clarifications", "Nutrition & Sleep Advice"],
-    desc: "Answers to your medical questions, helping you separate reliable evidence-based facts from online search noise.",
-  },
-  {
-    icon: ShieldAlert,
-    title: "Remote Diagnosis Guidance",
-    focus: ["Symptom Triage", "Specialist Referrals", "Suggested Diagnostic Tests"],
-    desc: "Targeted medical guidance to identify next steps and recommended tests. Note: This is clinical guidance and does not replace a physical examination when necessary.",
+    icon: Heart,
+    title: "Preventive Health Guidance",
+    focus: ["Lifestyle Recommendations", "Preventive Screening Guidance", "Health Maintenance"],
+    desc: "Evidence-based guidance to help optimize health, manage risk factors, and maintain long-term wellness.",
   },
 ];
 

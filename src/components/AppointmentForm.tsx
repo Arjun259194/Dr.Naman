@@ -5,10 +5,10 @@ import { Calendar, Clock, User, Phone, Mail, ArrowRight, ArrowLeft, CheckCircle,
 import { motion, AnimatePresence } from "framer-motion";
 
 const SERVICES = [
-  { id: "video", name: "Online Medical Consultation", fee: "₹1,200", duration: "45 Mins" },
-  { id: "discovery", name: "Free Discovery Call (Audio)", fee: "Free", duration: "15 Mins" },
-  { id: "review", name: "Remote Report Review", fee: "₹800", duration: "Online" },
-  { id: "prescription", name: "Prescription Review & Advice", fee: "₹600", duration: "Online" },
+  { id: "video", name: "Online Consultation", fee: "₹1,200", duration: "45 Mins" },
+  { id: "discovery", name: "15-Min Advice Call (Audio)", fee: "Free", duration: "15 Mins" },
+  { id: "review", name: "Medical Report Review", fee: "₹800", duration: "Online" },
+  { id: "prescription", name: "Prescription Review", fee: "₹600", duration: "Online" },
 ];
 
 const MOCK_DATES = [
@@ -400,7 +400,7 @@ export default function AppointmentForm() {
                     Appointment Requested Successfully!
                   </h3>
                   <p className="font-sans text-sm text-healing-teal/70 max-w-md mx-auto">
-                    Thank you, <span className="font-bold text-healing-teal">{patientName}</span>. Dr. Naman&apos;s team will contact you within 2 hours to confirm your schedule.
+                    Thank you, <span className="font-bold text-healing-teal">{patientName}</span>. Dr. Naman will contact you to confirm your schedule.
                   </p>
                 </div>
 

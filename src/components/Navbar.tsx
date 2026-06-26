@@ -68,7 +68,7 @@ export default function Navbar() {
               Dr. Naman
             </span>
             <span className="font-sans text-xs font-semibold tracking-widest text-gold-accent uppercase border-l border-sage-medium pl-2 group-hover:text-healing-teal-light transition-colors">
-              MD Physician
+              MBBS, B.Psych
             </span>
           </a>
 

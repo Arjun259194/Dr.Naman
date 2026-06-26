@@ -6,24 +6,24 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "What is an MD Physician and what is your practice philosophy?",
-    answer: "An MD (Doctor of Medicine) in Internal Medicine specializes in complex, adult health conditions. Dr. Naman's practice model focuses on a patient-first approach. Rather than brief hospital visits, he dedicates focused time during remote consultations to understand your history, symptoms, lifestyle, and diagnostic files, ensuring evidence-based and highly personalized health advice.",
+    question: "What are your medical qualifications and practice philosophy?",
+    answer: "Dr. Naman Krishnaatri holds an MBBS and a Bachelor's in Psychology. His practice philosophy is centered around patient well-being and evidence-based care. By dedicating focused time during online consultations, he listens carefully to understand your medical history, symptoms, lifestyle, and diagnostics to offer personalized guidance.",
   },
   {
     question: "Do you offer in-person visits or operate a physical clinic?",
-    answer: "Dr. Naman currently does not operate a physical clinic. All services—including online consultations, remote health guidance, prescription reviews, and report translations—are conducted virtually via secure video or audio connections. This ensures patients across North Gujarat can conveniently connect and get dedicated care without travel.",
+    answer: "Dr. Naman currently does not operate a physical clinic. All services—including online consultations, remote medical advice, prescription reviews, and report reviews—are conducted virtually via secure connections. This allows patients across North Gujarat to receive convenient and dedicated guidance from home.",
   },
   {
-    question: "How do the online video consultations and diagnostic reviews work?",
-    answer: "Once you schedule a consultation, you will receive a secure digital video or audio call link. You can share your previous reports, imaging, or prescriptions in advance. During the consult, Dr. Naman reviews your files, explains your clinical markers, answers your questions, and shares structured health advice and guidance.",
+    question: "How do the online consultations and medical report reviews work?",
+    answer: "Once you schedule an appointment, you will receive a secure video or audio link. You can share your recent diagnostic reports or medical history in advance. During the consult, Dr. Naman reviews your files, explains your clinical markers, answers your health queries, and provides structured guidance.",
   },
   {
-    question: "What is the purpose of the Free 15-Minute Discovery Call?",
-    answer: "The discovery call is a brief introductory conversation to clarify your primary concerns, assess if our virtual guidance fits your needs, and discuss next steps. Dr. Naman does not prescribe therapies, diagnose conditions, or review complex reports during this introductory call.",
+    question: "What is the purpose of the Free 15-Minute Advice Call?",
+    answer: "The advice call is a brief introductory session to discuss your primary concerns, clarify simple queries, and help guide your next clinical steps. Dr. Naman does not prescribe medications, diagnose new conditions, or review detailed medical reports during this initial call.",
   },
   {
-    question: "How does the remote prescription review service work?",
-    answer: "Our prescription review helps verify the safety of your current therapeutic regimen. Dr. Naman checks your medication list for potential drug-drug interactions, duplicates, or dosage concerns. He then provides a structured second opinion and health advice, which you can discuss with your primary in-person doctor.",
+    question: "How does the prescription review service work?",
+    answer: "The prescription review provides clinical safety guidance for your current medications. Dr. Naman checks your list for potential drug-drug interactions, duplicates, or dosage concerns, providing a structured second opinion that you can discuss with your primary in-person doctor.",
   },
 ];
 
@@ -107,9 +107,9 @@ export default function FAQ() {
         {/* Support Help Quote */}
         <div className="text-center mt-12">
           <p className="font-sans text-xs text-healing-teal/60">
-            Have a different question? Please contact our support email at{" "}
-            <a href="mailto:care@drnaman.com" className="text-gold-accent font-semibold hover:underline">
-              care@drnaman.com
+            Have a different question? Please contact Dr. Naman directly at{" "}
+            <a href="mailto:namankrishnaatri@gmail.com" className="text-gold-accent font-semibold hover:underline">
+              namankrishnaatri@gmail.com
             </a>.
           </p>
         </div>
